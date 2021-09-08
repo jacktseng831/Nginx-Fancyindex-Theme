@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <title>Nginx File System</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/.theme/styles.css">
+        <script type="text/javascript" src="/.theme/jquery.min.js"></script>
+        <script src="/.theme/config.js"></script>
+    </head>
+<body>
+<div align=right style="padding-right:0.4em">
+	Dark Mode
+	<label class="switch">
+		<input id="toggle" onchange="themeToggle()" type="checkbox">
+		<span class="slider round"></span>
+	</label>
+</div>
+<script>
+	document.getElementById("toggle").checked = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+	function themeToggle() {
+		var elements = document.querySelectorAll("*");
+		for (var i=0, len=elements.length; i<len; i=i+1) {
+			elements[i].classList.toggle("alt-theme");
+		}
+	}
+</script>
+<div id="raw_include_HEADER_md"></div>
+<h1 class="breadcrumbs">
