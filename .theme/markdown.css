@@ -1,0 +1,76 @@
+/* markdown.css
+ * © 2021, Jack Tseng (jacktseng831),
+ * open-sourced under the MIT License
+ */
+
+/* styles for markdown */
+.markdown {
+	line-height: 1.5em;
+}
+.markdown pre {
+	white-space: pre-wrap;		/* css-3 */
+	white-space: -moz-pre-wrap;	/* Mozilla, since 1999 */
+	border: 1px solid #999;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 0.125rem 0.3125rem 0.0625rem;
+}
+.markdown pre code {
+	font-family: SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+	line-height: 1em;
+}
+.markdown ul {
+	margin-left: 2em;
+}
+.markdown h1 {
+        font-weight: bold;
+        text-align: initial;
+        font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown h2 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown h3 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown h4 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown h5 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown h6 {
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+.markdown a {
+	text-decoration: underline;
+	color: DodgerBlue;
+}
+.markdown a:hover {
+	text-decoration: underline;
+	color: DodgerBlue;
+	text-shadow: 0 1px 0 DodgerBlue;
+}
+.markdown.alt-theme a {
+	text-decoration: underline;
+	color: DodgerBlue;
+}
+.markdown.alt-theme a:hover {
+	text-decoration: underline;
+	color: DodgerBlue;
+	text-shadow: 0 1px 0 DodgerBlue;
+}
+.markdown hr {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
