@@ -24,7 +24,7 @@ $(document).ready(function(){
 			breadcrumbs += '<a href="' + currentPath + '" class=\"breadcrumbs\">File System<\/a>';
 		}
 	}
-	$("h1").html(breadcrumbs);
+	$('h1.breadcrumbs').html(breadcrumbs);
 
 	// Establish supported formats.
 	var list = new Array();

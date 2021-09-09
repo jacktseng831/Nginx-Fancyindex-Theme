@@ -8,7 +8,7 @@
 @import "markdown.css";
 
 * {
-	font-family: Verdana,Geneva,sans-serif,Arial,'Liberation Sans';
+	font-family: Verdana,Geneva,'Liberation Sans',Arial,sans-serif;
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;

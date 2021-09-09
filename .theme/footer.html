@@ -6,6 +6,7 @@
     <script src="https://unpkg.com/xregexp/xregexp-all.js"></script>
     <script type="text/javascript" src="/.theme/addNginxFancyIndexForm.js"></script>
     <script type="text/javascript" src="/.theme/marked.min.js"></script>
+    <script type="text/javascript" src="/.theme/purify.min.js"></script>
     <script type="text/javascript" defer>
         $( "#raw_include_HEADER_md" ).load( "HEADER.md", function (){
             var elem = document.querySelector("#raw_include_HEADER_md");
@@ -13,7 +14,7 @@
             var text = elem.innerHTML.replace(/\n[ ]*/g, '\n');
             var html = marked(text);
             // here, have some HTML
-            elem.innerHTML = html;
+            elem.innerHTML = DOMPurify.sanitize(html , {USE_PROFILES: {html: true}});
         });
         $( "#raw_include_README_md" ).load( "README.md", function (){
             var elem = document.querySelector("#raw_include_README_md");
@@ -21,7 +22,7 @@
             var text = elem.innerHTML.replace(/\n[ ]*/g, '\n');
             var html = marked(text);
             // here, have some HTML
-            elem.innerHTML = html;
+            elem.innerHTML = DOMPurify.sanitize(html , {USE_PROFILES: {html: true}});
         });
     </script>
 </body>
