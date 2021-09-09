@@ -1,6 +1,6 @@
 # Nginx-Fancyindex-Theme
-A nginx fancyindex theme based on [Nginx-Fancyindex-Theme @Naereen](https://github.com/Naereen/Nginx-Fancyindex-Theme).
-Comes with updated [JQuery](https://jquery.com/) and [ShowDown.js](https://github.com/showdownjs/showdown/), a dark mode toggle, and file icons from ([Nginxy-Theme @ifelipe1501](https://github.com/lfelipe1501/Nginxy/tree/master/Nginxy-Theme/images/icons)).
+A nginx fancyindex theme based on [Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)@Naereen.
+Comes with updated [JQuery](https://jquery.com/) and [Marked.js](https://github.com/markedjs/marked/), a dark mode toggle, and file icons from ([Nginxy-Theme](https://github.com/lfelipe1501/Nginxy/tree/master/Nginxy-Theme/images/icons))@ifelipe1501.
 
 The fancyindex module can be found [here](https://github.com/aperezdc/ngx-fancyindex) (by @aperezdc).
 The fancyindex docker can be found [here](https://github.com/byjg/docker-nginx-extras) (by @byjg).
